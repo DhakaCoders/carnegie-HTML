@@ -104,13 +104,13 @@
 }
 .fl-fancy-des-title{
     color: #fff;
-    margin-bottom: 0;
-    font-family: 'NHaasGroteskDSPro-75Bd';
+    margin-bottom: 0!important;
+    font-family: 'NHaasGroteskDSPro-75Bd'!important;
 }
 .fl-fancy-des-sub-title{
     color: #fff;
-    margin-bottom: 30px;
-    font-family: 'SanchezSlab-Light';
+    margin-bottom: 30px!important;
+    font-family: 'SanchezSlab-Light'!important;
 }
 .fl-fancy-des-cntlr .fl-video-play-cntlr{
     width: 195px;
@@ -180,18 +180,21 @@
     padding-top: 40px;
     padding-bottom: 80px;
 }
-/*.fl-contact-info-sec{
+.fl-contact-info-sec{
     background: #00b6b3;
-}*/
+}
 .contact-info-cntlr{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 .contact-info-lft{
     width: 52%;
+    order: 2;
 }
 .contact-info-rgt{
     width: 48%;
+    order: 1;
 }
 .contact-form-info-title,
 .contact-form-info-subtitle {
@@ -211,4 +214,11 @@
 .cnt-mail a{
     font-size: 24px!important;
     font-family: 'SanchezSlab-Light'!important;
+}
+.cnt-tel span,
+.cnt-tel a,
+.cnt-mail span,
+.cnt-mail a{
+    color: #fff!important;
+    text-decoration: none!important;
 }
