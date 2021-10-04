@@ -177,7 +177,7 @@
 }
 
 .fl-grids-cntlr ul li {
-    width: 33%;
+    width: 33.33%;
     padding: 0 70px!important;
     display: flex;
     justify-content: center;
@@ -561,8 +561,8 @@
     .fl-contact-info-lft {
         padding-bottom: 0;
         background: #fff;
-        margin-top: 20px;
-        margin-bottom: 40px;
+        margin-top: 40px;
+        margin-bottom: 30px;
     }
     .fl-fancy-module{
         height: 450px;
@@ -584,6 +584,11 @@
 @media (max-width: 575px){
     .fl-fancy-module {
         height: 350px;
+    }
+    .fl-lftimg-logo-cntlr {
+        max-width: 220px;
+        width: 100%;
+        margin: 0 auto;
     }
 }
 @media (max-width: 479px){
@@ -607,6 +612,9 @@
     }
     .fl-fancy-module {
         height: 242px;
+    }
+    .fl-lftimg-logo-cntlr {
+        max-width: 200px;
     }
 }
 @media (max-width: 359px){
