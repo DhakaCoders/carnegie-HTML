@@ -172,7 +172,7 @@
 
 @media(max-width: 1199px){
 	.page-bnr-title {
-	    font-size: 40px!important;
+	    font-size: 45px!important;
 	}
 	.page-banner {
 	    height: 500px;
@@ -208,7 +208,8 @@
 	    font-size: 32px!important;
 	}
 	.page-bnr-title br,
-	.fl-sec-entry-hdr-title br{
+	.fl-sec-entry-hdr-title br,
+	.fl-des-grds ul li p br{
 		display: none;
 	}
 	#fl-landing-ctlr .fl-des-grds ul li p {
