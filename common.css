@@ -107,7 +107,7 @@
 	clear: both;
 }
 
-.container{
+#fl-landing-ctlr .container{
 	max-width: 1020px;
 	width: 100%;
 }
@@ -202,22 +202,28 @@ All heading
 	margin-bottom: 20px;
 	font-family: 'NHaasGroteskDSPro-75Bd';
 }
-#fl-landing-ctlr h1,.fl-h1{
+#fl-landing-ctlr h1,
+#fl-landing-ctlr .fl-h1{
 	font-size: 52px;
 }
-#fl-landing-ctlr h2,.fl-h2{
+#fl-landing-ctlr h2,
+#fl-landing-ctlr .fl-h2{
 	font-size: 40px;
 }
-#fl-landing-ctlr h3,.fl-h3{
+#fl-landing-ctlr h3,
+#fl-landing-ctlr .fl-h3{
 	font-size: 35px;
 }
-#fl-landing-ctlr h4,.fl-h4{
+#fl-landing-ctlr h4,
+#fl-landing-ctlr .fl-h4{
 	font-size: 30px;
 }
-#fl-landing-ctlr h5,.fl-h5{
+#fl-landing-ctlr h5,
+#fl-landing-ctlr .fl-h5{
 	font-size: 25px;
 }
-#fl-landing-ctlr h6,.fl-h6{
+#fl-landing-ctlr h6,
+#fl-landing-ctlr .fl-h6{
 	font-size: 20px;
 }
 
@@ -226,72 +232,92 @@ All heading
 
 /*responsive*/
 @media(max-width: 1699px){
-	#fl-landing-ctlr h1,.fl-h1{
+	#fl-landing-ctlr h1,
+	#fl-landing-ctlr .fl-h1{
 		font-size: 45px;
 	}
-	#fl-landing-ctlr h2,.fl-h2{
+	#fl-landing-ctlr h2,
+	#fl-landing-ctlr .fl-h2{
 		font-size: 35px;
 	}
-	#fl-landing-ctlr h3,.fl-h3{
+	#fl-landing-ctlr h3,
+	#fl-landing-ctlr .fl-h3{
 		font-size: 32px;
 	}
-	#fl-landing-ctlr h4,.fl-h4{
+	#fl-landing-ctlr h4,
+	#fl-landing-ctlr .fl-h4{
 		font-size: 28px;
 	}
-	#fl-landing-ctlr h5,.fl-h5{
+	#fl-landing-ctlr h5,
+	#fl-landing-ctlr .fl-h5{
 		font-size: 24px;
 	}
 }
 
 @media(max-width: 991px){
-	#fl-landing-ctlr h1,.fl-h1{
+	#fl-landing-ctlr h1,
+	#fl-landing-ctlr .fl-h1{
 		font-size: 42px;
 	}
-	#fl-landing-ctlr h2,.fl-h2{
+	#fl-landing-ctlr h2,
+	#fl-landing-ctlr .fl-h2{
 		font-size: 32px;
 	}
-	#fl-landing-ctlr h3,.fl-h3{
+	#fl-landing-ctlr h3,
+	#fl-landing-ctlr .fl-h3{
 		font-size: 30px;
 	}
-	#fl-landing-ctlr h4,.fl-h4{
+	#fl-landing-ctlr h4,
+	#fl-landing-ctlr .fl-h4{
 		font-size: 26px;
 	}
-	#fl-landing-ctlr h5,.fl-h5{
+	#fl-landing-ctlr h5,
+	#fl-landing-ctlr .fl-h5{
 		font-size: 22px;
 	}
-	#fl-landing-ctlr h6,.fl-h6{
+	#fl-landing-ctlr h6,
+	#fl-landing-ctlr .fl-h6{
 		font-size: 18px;
 	}
 }
 
 @media(max-width: 767px){
-	#fl-landing-ctlr h1,.fl-h1{
+	#fl-landing-ctlr h1,
+	#fl-landing-ctlr .fl-h1{
 		font-size: 35px;
 	}
-	#fl-landing-ctlr h2,.fl-h2{
+	#fl-landing-ctlr h2,
+	#fl-landing-ctlr .fl-h2{
 		font-size: 30px;
 	}
-	#fl-landing-ctlr h3,.fl-h3{
+	#fl-landing-ctlr h3,
+	#fl-landing-ctlr .fl-h3{
 		font-size: 28px;
 	}
-	#fl-landing-ctlr h4,.fl-h4{
+	#fl-landing-ctlr h4,
+	#fl-landing-ctlr .fl-h4{
 		font-size: 23px;
 	}
-	#fl-landing-ctlr h5,.fl-h5{
+	#fl-landing-ctlr h5,
+	#fl-landing-ctlr .fl-h5{
 		font-size: 20px;
 	}
 }
 @media(max-width: 575px){
-	#fl-landing-ctlr h1,.fl-h1{
+	#fl-landing-ctlr h1,
+	#fl-landing-ctlr .fl-h1{
 		font-size: 30px;
 	}
-	#fl-landing-ctlr h2,.fl-h2{
+	#fl-landing-ctlr h2,
+	#fl-landing-ctlr .fl-h2{
 		font-size: 25px;
 	}
-	#fl-landing-ctlr h3,.fl-h3{
+	#fl-landing-ctlr h3,
+	#fl-landing-ctlr .fl-h3{
 		font-size: 23px;
 	}
-	#fl-landing-ctlr h4,.fl-h4{
+	#fl-landing-ctlr h4,
+	#fl-landing-ctlr .fl-h4{
 		font-size: 20px;
 	}
 }
