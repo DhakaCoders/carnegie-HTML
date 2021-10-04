@@ -151,7 +151,7 @@
 
 @media(max-width: 1699px){
 	.page-banner {
-	    height: 550px;
+	    height: 630px;
 	}
 	#fl-landing-ctlr .fl-des-grds ul li p {
 	    font-size: 25px;
@@ -201,13 +201,21 @@
 	.fl-training-grd-item-des p {
 	    font-size: 19px;
 	}
+	.page-bnr-title br{
+		display: none;
+	}
+	.page-bnr-des-inr{
+		max-width: 750px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 @media(max-width: 767px){
 	.page-bnr-title {
-	    font-size: 32px!important;
+	    font-size: 27px!important;
 	}
-	.page-bnr-title br,
 	.fl-sec-entry-hdr-title br,
 	.fl-des-grds ul li p br{
 		display: none;
@@ -241,6 +249,24 @@
 	.page-banner {
 	    height: 400px;
 	}
+	.fl-training-sec .fl-sec-entry-hdr{
+		max-width: 500px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.fl-training-grd-item{
+		max-width: 350px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.fl-trust-us-sec-inr{
+		max-width: 450px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 @media(max-width: 575px){
@@ -253,6 +279,6 @@
 }
 @media(max-width: 479px){
 	.page-bnr-title {
-	    font-size: 27px!important;
+	    font-size: 24px!important;
 	}
 }
