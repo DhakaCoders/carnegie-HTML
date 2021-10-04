@@ -36,12 +36,12 @@
 	margin-right: auto;
 }
 
-.fl-des-grds ul li{
+#fl-landing-ctlr .fl-des-grds ul li{
 	padding-bottom: 2px;
 	padding-top: 18px;
 	border-bottom: 2px solid #000000;
 }
-.fl-des-grds ul li p{
+#fl-landing-ctlr .fl-des-grds ul li p{
 	font-size: 28px;
 }
 
@@ -63,13 +63,13 @@
 }
 
 
-.fl-training-grds ul{
+#fl-landing-ctlr .fl-training-grds ul{
 	display: flex;
 	flex-wrap: wrap;
 	margin-left: -15px;
 	margin-right: -15px;
 }
-.fl-training-grds ul li{
+#fl-landing-ctlr .fl-training-grds ul li{
 	width: 50%;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -114,17 +114,17 @@
 	padding: 60px 0;
 }
 
-.fl-client-grds ul{
+#fl-landing-ctlr .fl-client-grds ul{
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 }
-.fl-client-grds ul li{
+#fl-landing-ctlr .fl-client-grds ul li{
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-bottom: 20px;
 }
-.fl-client-grds ul li a{
+#fl-landing-ctlr .fl-client-grds ul li a{
 	display: inline-block;
 	vertical-align: baseline;
 }
