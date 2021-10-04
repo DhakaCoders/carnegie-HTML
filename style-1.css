@@ -177,9 +177,6 @@
 	.page-banner {
 	    height: 500px;
 	}
-	.fl-training-grd-item-des i{
-		max-width: 60px;
-	}
 }
 
 @media(max-width: 991px){
@@ -241,10 +238,10 @@
 		display: none;
 	}
 	.fl-training-grd-item-des i {
-	    max-width: 40px;
+	    max-width: 50px;
 	}
 	.fl-training-grd-item-des {
-	    padding-left: 60px;
+	    padding-left: 65px;
 	}
 	.page-banner {
 	    height: 400px;
