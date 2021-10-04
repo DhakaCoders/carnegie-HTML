@@ -1,15 +1,284 @@
-/*
-Theme Name: JCKruns
-Theme URI: N/A
-Author: Md. Foridul Islam
-Author URI: N/A
-Description: A custom wordpress theme for JCKruns.
-Version: 1.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: Html5, Css3, PHP5, Custom post type, Blog, Wpml
-Text Domain: clipfresh
-*/
+
+
+.page-banner-cntlr{
+	position: relative;
+	overflow: hidden;
+}
+
+.page-banner{
+	height: 705px;
+}
+.page-banner-bg{
+	height: 100%;
+}
+.page-bnr-des{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 50px;
+}
+
+.page-bnr-title{
+	color: #fff;
+	text-align: center;
+	font-size: 49px!important;
+}
+
+
+.fl-des-list-sec{
+	padding: 40px 0 40px;
+}
+
+.fl-des-list-sec-inr{
+	max-width: 715px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#fl-landing-ctlr .fl-des-grds ul li{
+	padding-bottom: 2px;
+	padding-top: 18px;
+	border-bottom: 2px solid #000000;
+}
+#fl-landing-ctlr .fl-des-grds ul li p{
+	font-size: 28px;
+}
+
+.fl-des-list-sec-inr .fl-button{
+	text-align: center;
+	padding-top: 40px;
+}
+
+
+.fl-training-sec{
+	padding: 50px 0 40px;
+	background: #f2f2f2;
+}
+
+
+.fl-sec-entry-hdr{
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+
+#fl-landing-ctlr .fl-training-grds ul{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -15px!important;
+	margin-right: -15px!important;
+}
+#fl-landing-ctlr .fl-training-grds ul li{
+	width: 50%;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 30px;
+}
+
+.fl-training-grd-item-des{
+	padding-left: 110px;
+	position: relative;
+}
+.fl-training-grd-item-des i{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.fl-training-grd-item-des p{
+	font-size: 24px;
+}
+.fl-training-sec-inr .fl-button{
+	text-align: center;
+}
+
+.fl-trust-us-sec{
+	padding: 50px 0 50px;
+	background: #00b6b3;
+}
+.fl-trust-us-sec .fl-sec-entry-hdr,
+.fl-customer-say-sec .fl-sec-entry-hdr{
+	padding-bottom: 0;
+}
+.fl-trust-us-sec .fl-sec-entry-hdr-title,
+.fl-customer-say-sec .fl-sec-entry-hdr-title{
+	color: #fff;
+}
+
+.fl-customer-say-sec{
+	padding: 30px 0;
+	background: #00b6b3;
+}
+#fl-landing-ctlr .fl-customer-say-sec .fl-sec-entry-hdr-title,
+#fl-landing-ctlr .fl-trust-us-sec .fl-sec-entry-hdr-title{
+	margin-bottom: 0!important;
+}
+
+.fl-client-sec{
+	padding: 60px 0;
+}
+
+#fl-landing-ctlr .fl-client-grds ul{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+#fl-landing-ctlr .fl-client-grds ul li{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+}
+#fl-landing-ctlr .fl-client-grds ul li a{
+	display: inline-block;
+	vertical-align: baseline;
+	height: 78px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#fl-landing-ctlr .fl-client-grds ul li a img{
+	max-height: 100%;
+}
+#fl-landing-ctlr .fl-client-grds ul li a:hover{
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+@media(max-width: 1699px){
+	.page-banner {
+	    height: 630px;
+	}
+	#fl-landing-ctlr .fl-des-grds ul li p {
+	    font-size: 25px;
+	}
+	.fl-training-grd-item-des p {
+	    font-size: 23px;
+	}
+	.page-bnr-title {
+	    font-size: 45px!important;
+	}
+	.fl-des-list-sec-inr{
+		max-width: 650px;
+	}
+	.fl-training-grd-item-des{
+		padding-left: 90px;
+	}
+}
+
+@media(max-width: 1199px){
+	.page-bnr-title {
+	    font-size: 45px!important;
+	}
+	.page-banner {
+	    height: 500px;
+	}
+}
+
+@media(max-width: 991px){
+	.page-banner {
+	    height: 450px;
+	}
+	.page-bnr-des{
+		bottom: 35px;
+	}
+	.page-bnr-title {
+	    font-size: 36px!important;
+	}
+	.fl-training-grd-item-des {
+	    padding-left: 80px;
+	}
+	.fl-training-grd-item-des i {
+	    max-width: 50px;
+	}
+	.fl-training-grd-item-des p {
+	    font-size: 19px;
+	}
+	.page-bnr-title br{
+		display: none;
+	}
+	.page-bnr-des-inr{
+		max-width: 750px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media(max-width: 767px){
+	.page-bnr-title {
+	    font-size: 27px!important;
+	}
+	.fl-sec-entry-hdr-title br,
+	.fl-des-grds ul li p br{
+		display: none;
+	}
+	#fl-landing-ctlr .fl-des-grds ul li p {
+	    font-size: 24px;
+	}
+	#fl-landing-ctlr .fl-training-grds ul {
+	    display: block;
+	    margin-left: 0!important;
+	    margin-right: 0!important;
+	}
+	#fl-landing-ctlr .fl-training-grds ul li {
+	    width: 100%;
+	    padding-left: 0;
+	    padding-right: 0;
+	    padding-bottom: 20px;
+	}
+	.fl-training-grd-item-des{
+		padding-bottom: 10px;
+	}
+	.fl-training-grd-item-des p br{
+		display: none;
+	}
+	.fl-training-grd-item-des i {
+	    max-width: 50px;
+	}
+	.fl-training-grd-item-des {
+	    padding-left: 65px;
+	}
+	.page-banner {
+	    height: 400px;
+	}
+	.fl-training-sec .fl-sec-entry-hdr{
+		max-width: 500px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.fl-training-grd-item{
+		max-width: 350px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.fl-trust-us-sec-inr{
+		max-width: 450px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media(max-width: 575px){
+	#fl-landing-ctlr .fl-des-grds ul li p {
+	    font-size: 22px;
+	}
+	.fl-des-list-sec {
+	    padding: 40px 0 40px;
+	}
+}
+@media(max-width: 479px){
+	.page-bnr-title {
+	    font-size: 24px!important;
+	}
+}
 
 
 
