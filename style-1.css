@@ -128,3 +128,16 @@
 	display: inline-block;
 	vertical-align: baseline;
 }
+
+
+@media(max-width: 1699px){
+	.page-banner {
+	    height: 550px;
+	}
+	.fl-des-grds ul li p {
+	    font-size: 25px;
+	}
+	.fl-training-grd-item-des p {
+	    font-size: 22px;
+	}
+}
