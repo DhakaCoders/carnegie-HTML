@@ -302,6 +302,9 @@ All heading
 	#fl-landing-ctlr .fl-h5{
 		font-size: 20px;
 	}
+	#fl-landing-ctlr{
+		font-size: 17px;
+	}
 }
 @media(max-width: 575px){
 	#fl-landing-ctlr h1,
