@@ -1,11 +1,49 @@
 
 @font-face {
-    font-family: 'LatoRegular';
-    src: url('LatoRegular/LatoRegular.eot');
-    src: url('LatoRegular/LatoRegular.eot') format('embedded-opentype'),
-         url('LatoRegular/LatoRegular.woff2') format('woff2'),
-         url('LatoRegular/LatoRegular.woff') format('woff'),
-         url('LatoRegular/LatoRegular.ttf') format('truetype'),
-         url('LatoRegular/LatoRegular.svg#LatoRegular') format('svg');
-    font-weight: normal;
+    font-family: 'SanchezSlab-Light';
+    src: url('SanchezSlab-Light/SanchezSlab-Light.eot');
+    src: url('SanchezSlab-Light/SanchezSlab-Light.eot?#iefix') format('embedded-opentype'),
+        url('SanchezSlab-Light/SanchezSlab-Light.woff2') format('woff2'),
+        url('SanchezSlab-Light/SanchezSlab-Light.woff') format('woff'),
+        url('SanchezSlab-Light/SanchezSlab-Light.ttf') format('truetype'),
+        url('SanchezSlab-Light/SanchezSlab-Light.svg#SanchezSlab-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SanchezSlab-Bold';
+    src: url('SanchezSlab-Bold/SanchezSlab-Bold.eot');
+    src: url('SanchezSlab-Bold/SanchezSlab-Bold.eot?#iefix') format('embedded-opentype'),
+        url('SanchezSlab-Bold/SanchezSlab-Bold.woff2') format('woff2'),
+        url('SanchezSlab-Bold/SanchezSlab-Bold.woff') format('woff'),
+        url('SanchezSlab-Bold/SanchezSlab-Bold.ttf') format('truetype'),
+        url('SanchezSlab-Bold/SanchezSlab-Bold.svg#SanchezSlab-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NHaasGroteskDSPro-75Bd';
+    src: url('NHaasGroteskDSPro-75Bd/NHaasGroteskDSPro-75Bd.eot');
+    src: url('NHaasGroteskDSPro-75Bd/NHaasGroteskDSPro-75Bd.eot?#iefix') format('embedded-opentype'),
+        url('NHaasGroteskDSPro-75Bd/NHaasGroteskDSPro-75Bd.woff2') format('woff2'),
+        url('NHaasGroteskDSPro-75Bd/NHaasGroteskDSPro-75Bd.woff') format('woff'),
+        url('NHaasGroteskDSPro-75Bd/NHaasGroteskDSPro-75Bd.ttf') format('truetype'),
+        url('NHaasGroteskDSPro-75Bd/NHaasGroteskDSPro-75Bd.svg#NHaasGroteskDSPro-75Bd') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NHaasGroteskDSPro-45Lt';
+    src: url('NHaasGroteskDSPro-45Lt/NHaasGroteskDSPro-45Lt.eot');
+    src: url('NHaasGroteskDSPro-45Lt/NHaasGroteskDSPro-45Lt.eot?#iefix') format('embedded-opentype'),
+        url('NHaasGroteskDSPro-45Lt/NHaasGroteskDSPro-45Lt.woff2') format('woff2'),
+        url('NHaasGroteskDSPro-45Lt/NHaasGroteskDSPro-45Lt.woff') format('woff'),
+        url('NHaasGroteskDSPro-45Lt/NHaasGroteskDSPro-45Lt.ttf') format('truetype'),
+        url('NHaasGroteskDSPro-45Lt/NHaasGroteskDSPro-45Lt.svg#NHaasGroteskDSPro-45Lt') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }

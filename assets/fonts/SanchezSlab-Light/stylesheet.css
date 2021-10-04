@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Sanchez Slab';
+    src: url('SanchezSlab-Light.eot');
+    src: url('SanchezSlab-Light.eot?#iefix') format('embedded-opentype'),
+        url('SanchezSlab-Light.woff2') format('woff2'),
+        url('SanchezSlab-Light.woff') format('woff'),
+        url('SanchezSlab-Light.ttf') format('truetype'),
+        url('SanchezSlab-Light.svg#SanchezSlab-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

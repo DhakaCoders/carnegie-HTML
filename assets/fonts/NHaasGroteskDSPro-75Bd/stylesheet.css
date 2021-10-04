@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'NeueHaasGroteskDisp Pro';
+    src: url('NHaasGroteskDSPro-75Bd.eot');
+    src: url('NHaasGroteskDSPro-75Bd.eot?#iefix') format('embedded-opentype'),
+        url('NHaasGroteskDSPro-75Bd.woff2') format('woff2'),
+        url('NHaasGroteskDSPro-75Bd.woff') format('woff'),
+        url('NHaasGroteskDSPro-75Bd.ttf') format('truetype'),
+        url('NHaasGroteskDSPro-75Bd.svg#NHaasGroteskDSPro-75Bd') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

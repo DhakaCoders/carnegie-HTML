@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'NeueHaasGroteskDisp Pro Lt';
+    src: url('NHaasGroteskDSPro-45Lt.eot');
+    src: url('NHaasGroteskDSPro-45Lt.eot?#iefix') format('embedded-opentype'),
+        url('NHaasGroteskDSPro-45Lt.woff2') format('woff2'),
+        url('NHaasGroteskDSPro-45Lt.woff') format('woff'),
+        url('NHaasGroteskDSPro-45Lt.ttf') format('truetype'),
+        url('NHaasGroteskDSPro-45Lt.svg#NHaasGroteskDSPro-45Lt') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
