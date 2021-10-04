@@ -20,7 +20,7 @@
     padding-bottom: 50px;
 }
 .fl-rgtdes-title {
-    margin-bottom: 40px;
+    margin-bottom: 40px!important;
 }
 .fl-rgtdes-inner p{
     margin-bottom: 20px;
@@ -119,8 +119,8 @@
 .fl-fancy-title{
     text-align: center;
     color: #000;
-    font-size: 24px;
-    font-family: 'SanchezSlab-Bold';
+    font-size: 24px!important;
+    font-family: 'SanchezSlab-Bold'!important;
 }
 .fl-text-module p{
     font-size: 25px;
@@ -201,6 +201,7 @@
     font-size: 24px!important;
     font-family: 'SanchezSlab-Bold'!important;
     color: #fff!important;
+    text-transform: capitalize!important;
 }
 .contact-form-info-title{
     margin-bottom: 25px!important;
@@ -221,4 +222,7 @@
 .cnt-mail a{
     color: #fff!important;
     text-decoration: none!important;
+}
+.cnt-mail a:hover,.cnt-tel a:hover{
+    color: #000!important;
 }
