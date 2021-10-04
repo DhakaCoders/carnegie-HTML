@@ -43,6 +43,30 @@ u{
 	text-decoration: underline;
 }
 
+.fl-black-btn{
+	display: inline-block;
+	vertical-align: baseline;
+	max-width: 212px;
+	width: 100%;
+	position: relative;
+	color: #fff;
+	background: #000000;
+	border-radius: 30px;
+	font-size: 12px;
+	line-height: 1;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 16px 20px;
+	overflow: hidden;
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-family: 'NHaasGroteskDSPro-45Lt';
+}
+.fl-black-btn:hover{
+	background: #00b6b3;
+	color: #fff;
+}
+
 input[type=text],
 input[type=email],
 input[type=tel],

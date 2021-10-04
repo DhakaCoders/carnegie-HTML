@@ -1,0 +1,50 @@
+
+
+.page-banner-cntlr{
+	position: relative;
+	overflow: hidden;
+}
+
+.page-banner{
+	height: 705px;
+}
+.page-banner-bg{
+	height: 100%;
+}
+.page-bnr-des{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 50px;
+}
+
+.page-bnr-title{
+	color: #fff;
+	text-align: center;
+}
+
+
+.fl-des-list-sec{
+	padding: 50px 0 40px;
+}
+
+.fl-des-list-sec-inr{
+	max-width: 715px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fl-des-grds ul li{
+	padding-bottom: 2px;
+	padding-top: 18px;
+	border-bottom: 2px solid #000000;
+}
+.fl-des-grds ul li p{
+	font-size: 28px;
+}
+
+.fl-des-list-sec-inr .fl-button{
+	text-align: center;
+	padding-top: 40px;
+}
