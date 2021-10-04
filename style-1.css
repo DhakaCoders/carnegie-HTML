@@ -109,6 +109,10 @@
 	padding: 30px 0;
 	background: #00b6b3;
 }
+#fl-landing-ctlr .fl-customer-say-sec .fl-sec-entry-hdr-title,
+#fl-landing-ctlr .fl-trust-us-sec .fl-sec-entry-hdr-title{
+	margin-bottom: 0!important;
+}
 
 .fl-client-sec{
 	padding: 60px 0;
@@ -116,8 +120,11 @@
 
 #fl-landing-ctlr .fl-client-grds ul{
 	display: flex;
+	align-content: center;
 	justify-content: center;
 	flex-wrap: wrap;
+	margin-left: -15px;
+	margin-right: -15px;
 }
 #fl-landing-ctlr .fl-client-grds ul li{
 	padding-left: 15px;
@@ -127,6 +134,18 @@
 #fl-landing-ctlr .fl-client-grds ul li a{
 	display: inline-block;
 	vertical-align: baseline;
+	height: 78px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#fl-landing-ctlr .fl-client-grds ul li a img{
+	max-height: 100%;
+}
+#fl-landing-ctlr .fl-client-grds ul li a:hover{
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 
