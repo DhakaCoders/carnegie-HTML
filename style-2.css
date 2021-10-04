@@ -63,6 +63,10 @@
     -ms-transform: translate(-50%, -50%);
     z-index: 2;
 }
+.fl-video-play-cntlr i {
+    display: inline-block;
+    margin-left: 6px;
+}
 .fl-fancy-module:hover .fl-fancy-img {
     transform: scale(1.1);
     -ms-transform: scale(1.1);
@@ -70,10 +74,10 @@
     -o-transform: scale(1.1);
 }
 .fl-fancy-title {
-    padding-top: 10px;
-    font-size: 15px;
-    margin-bottom: 0;
-    font-family: 'SanchezSlab-Bold';
+    padding-top: 10px!important;
+    font-size: 15px!important;
+    margin-bottom: 0!important;
+    font-family: 'SanchezSlab-Bold'!important;
 }
 .fl-lftimg-rgtdes-row:nth-child(2n+1) .fl-lftimg-rgtdes .fl-lftimg-rgtdes-lft{
     order: 2;
@@ -98,9 +102,15 @@
     position: relative;
     overflow: hidden;
 }
-.fl-fancy-des{
+.fl-fancy-des-cntlr .fl-fancy-des{
     text-align: center;
     padding-top: 90px;
+}
+.fl-fancy-des-cntlr .fl-fancy-module{
+    width: 195px;
+    height: 195px;
+    margin: auto;
+    margin-bottom: 30px!important;
 }
 .fl-fancy-des-title{
     color: #fff;
@@ -112,15 +122,19 @@
     margin-bottom: 30px!important;
     font-family: 'SanchezSlab-Light'!important;
 }
+.fl-fancy-des-cntlr .fl-video-play-cntlr i{
+    margin-left: 10px;
+}
 .fl-fancy-des-cntlr .fl-video-play-cntlr{
     width: 195px;
     height: 195px;
 }
-.fl-fancy-title{
+.fl-fancy-des-cntlr .fl-fancy-title{
     text-align: center;
     color: #000;
     font-size: 24px!important;
     font-family: 'SanchezSlab-Bold'!important;
+    padding-top: 0!important;
 }
 .fl-text-module p{
     font-size: 25px;
