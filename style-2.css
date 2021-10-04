@@ -1,6 +1,8 @@
 .fl-lftimg-rgtdes {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 65px;
+    padding-bottom: 60px;
 }
 .fl-lftimg-rgtdes-lft, 
 .fl-lftimg-rgtdes-rgt {
@@ -22,6 +24,14 @@
 }
 .fl-rgtdes-inner p{
     margin-bottom: 20px;
+}
+.fl-rgtdes-inner a {
+    display: inline-block;
+    margin-bottom: 60px;
+}
+.fl-fancy-des p {
+    font-size: 15px;
+    font-family: 'SanchezSlab-light';
 }
 .fl-fancy-module {
     overflow: hidden;
@@ -51,4 +61,27 @@
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+}
+.fl-fancy-module:hover .fl-fancy-img {
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.fl-fancy-title {
+    padding-top: 10px;
+    font-size: 15px;
+    margin-bottom: 0;
+    font-family: 'SanchezSlab-Bold';
+}
+.fl-lftimg-rgtdes-row:nth-child(2n+1) .fl-lftimg-rgtdes .fl-lftimg-rgtdes-lft{
+    order: 2;
+    padding-right: 0;
+    padding-left: 70px;
+}
+.fl-lftimg-rgtdes-row:nth-child(2n+2){
+    background: #f2f2f2;
+}
+.fl-lftimg-rgtdes-row:last-child .fl-lftimg-rgtdes{
+    padding-bottom: 40px;
 }
